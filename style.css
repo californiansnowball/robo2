@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #141024;
+}
+nav ul {
+  display: flex;
+}
+.logo {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  width: 255px;
+  height: 40px;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+nav ul {
+  display: flex;
+
+  font-family: "Jost", sans-serif;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 35px;
+}
+.number {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  padding-right: 25px;
+  padding-top: 15px;
+}
+.textandbut {
+  display: flex;
+  flex-direction: column;
+}
+.textandbut h1 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+}
+.textandbut p {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  width: 480px;
+}
+.textandbut button {
+  width: 260px;
+  height: 80px;
+  background: #d52027;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+
+.imggg img {
+  width: 700px;
+}
+.one {
+  height: 100vh;
+  overflow: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #141024;
+  align-items: flex-end;
+  column-gap: 150px;
+}
+.one .textandbut {
+  align-self: center;
+}
+.textandbut .zag {
+  margin-bottom: 10%;
+}
+.textandbut p {
+  margin-bottom: 10%;
+}
+.two {
+  width: 99vw;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.ucherej {
+  font-family: "Jost";
+  width: 891px;
+  height: 144px;
+  font-size: 30px;
+}
+.vieb {
+  width: 260px;
+  height: 160px;
+}
+.vieboni {
+  display: flex;
+  justify-content: space-between;
+}
+.vieboni .info {
+  font-family: "Jost";
+  font-size: 18px;
+  color: #141024b2;
+}
+.vieb .chislo {
+  font-family: "Jost";
+  font-size: 70px;
+  color: #d52027;
+}
+.three {
+  width: 99vw;
+  background-color: #f9f9f9;
+}
+.wrapper2 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.poslekurs {
+  font-size: 50px;
+  font-family: "Jost";
+  font-weight: 500;
+}
+.aftkurs {
+  display: flex;
+  justify-content: space-between;
+}
+.kur {
+  width: 360px;
+  height: 150px;
+}
+.kur .chto {
+  font-size: 24px;
+  font-family: "Jost";
+  font-weight: 600;
+}
+.kur .chtoinfo {
+  font-family: "Jost";
+  font-size: 18px;
+  color: #141024b2;
+}
+.paketis {
+  display: flex;
+  justify-content: space-between;
+}
+.paket {
+  font-family: "Jost";
+  font-size: 50px;
+  font-weight: 600;
+}
+.varik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 360px;
+  height: 460px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.varik:hover {
+  background-color: #141024;
+  color: white;
+  width: 400px;
+  height: 500px;
+}
+.four {
+  width: 99vw;
+}
+.wrapper3 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.va {
+  font-family: "Jost";
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.cena {
+  font-family: "Jost";
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+.opisaniye {
+  font-family: "Jost";
+  font-size: 18px;
+  font-weight: 400;
+  width: 250px;
+  height: 58px;
+  text-align: center;
+}
+.varik button {
+  width: 260px;
+  height: 80px;
+  background: #d52027;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.varik button:hover {
+  background-color: red;
+}
+.five {
+  width: 99vw;
+}
+.wrapper4 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.z {
+  font-family: "Jost";
+  font-weight: 600;
+  font-size: 36px;
+  width: 476px;
+}
+.akciya {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 20px;
+  width: 396px;
+}
+.zap {
+  display: flex;
+}
+.vvod input {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+}
+.vvod button {
+  margin-left: 150px;
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  font-family: "Jost";
+  font-size: 15px;
+  background-color: #141024;
+  color: white;
+}
+footer {
+  width: 99vw;
+  background-color: #141024;
+  color: white;
+  font-family: "Jost";
+}
+.wrapper5 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.f2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+}
+.rbscl {
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 30px;
+}
+.rbscl2 {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+}
+.right {
+  font-family: "Jost";
+  font-weight: 600;
+  font-size: 30px;
+}
