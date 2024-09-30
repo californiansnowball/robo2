@@ -99,6 +99,7 @@ nav ul li {
   width: 1200px;
   margin: 0 auto;
 }
+
 .ucherej {
   font-family: "Jost";
   width: 891px;
@@ -126,10 +127,6 @@ nav ul li {
 .three {
   width: 99vw;
   background-color: #f9f9f9;
-}
-.wrapper2 {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .poslekurs {
@@ -184,10 +181,7 @@ nav ul li {
 .four {
   width: 99vw;
 }
-.wrapper3 {
-  width: 1200px;
-  margin: 0 auto;
-}
+
 .va {
   font-family: "Jost";
   font-size: 30px;
@@ -224,11 +218,10 @@ nav ul li {
 }
 .five {
   width: 99vw;
+  background-color: #d52027;
+  color: white;
 }
-.wrapper4 {
-  width: 1200px;
-  margin: 0 auto;
-}
+
 .z {
   font-family: "Jost";
   font-weight: 600;
@@ -269,10 +262,7 @@ footer {
   color: white;
   font-family: "Jost";
 }
-.wrapper5 {
-  width: 1200px;
-  margin: 0 auto;
-}
+
 .f2 {
   display: flex;
   justify-content: space-between;
