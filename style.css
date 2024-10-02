@@ -93,7 +93,7 @@ nav ul li {
   margin-bottom: 10%;
 }
 .two {
-  width: 99vw;
+  padding: 50px 0px;
 }
 .wrapper {
   width: 1200px;
@@ -125,8 +125,8 @@ nav ul li {
   color: #d52027;
 }
 .three {
-  width: 99vw;
   background-color: #f9f9f9;
+  padding: 50px 0px;
 }
 
 .poslekurs {
@@ -171,15 +171,15 @@ nav ul li {
   background-color: white;
   border-radius: 20px;
   border: 1px solid black;
+  transition: transform 0.3s;
 }
 .varik:hover {
   background-color: #141024;
   color: white;
-  width: 400px;
-  height: 500px;
+  transform: scale(1.05);
 }
 .four {
-  width: 99vw;
+  padding: 50px 0px;
 }
 
 .va {
@@ -217,7 +217,7 @@ nav ul li {
   background-color: red;
 }
 .five {
-  width: 99vw;
+  padding: 50px 0px;
   background-color: #d52027;
   color: white;
 }
@@ -257,7 +257,6 @@ nav ul li {
   color: white;
 }
 footer {
-  width: 99vw;
   background-color: #141024;
   color: white;
   font-family: "Jost";
